@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/25a5c6b579.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <nav id="nav">
+    <!-- <img src="images/ChinduAnuraglogo.png" class="logo"> -->
+ 
+    <ul id="sidemenu">
+        <li><a href="">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+    </ul>
+  
+    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+  
+</nav>
+
+    <!-- Header -->
+    <div id="header" class="header"> 
+    
+        
+        <!-- </div> -->
+        
+        <div class="header-text">
+          <br><br>
+            <p></p>
+            <h1 class="home_content waviy">Hi, I am <span>Chindu Anurag,</span> <br>a web developer from India. I enjoy building everything from small business<br> sites to rich interactive web apps.<br> If your business seeking a web presence or an employer looking to hire,<br> you can get in touch with me here.</h1>
+        </div>
+        
+
+    </div>
+    <!-- About  -->
+    <div id="about">
+<div class="container">
+<div class="row">
+    <div class="about-col-1">
+        <br><br>
+  <img src="images/fullstack.png"> 
+       <br>
+        <!-- <a id="download_button" href="" class="button button-light home__button">Download CV</a> -->
+    </div>
+    <div class="about-col-2">
+        <h3 class="sub-title">About Me</h3>
+        <br>
+        <p>
+            Computer Engineer with passion for developing scalable and responsive web applications and working across the full stack. I am seeking a role in a fast-paced startup where I can continue to grow my skill set while contributing to the positive outcome of making people "richer, smarter, and happier".
+           
+        </p>
+   
+    <div class="tab-titles">
+        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+        <p class="tab-links" onclick="opentab('education')">Education</p>
+    </div>
+ <div class="tab-contents active-tab" id="skills">
+    <div class="skills">Angular</div>
+    <div class="skills">Node.js</div>
+    <div class="skills">Express.js</div>
+    <div class="skills">MongoDB</div>
+    <div class="skills">JavaScript</div>
+    <div class="skills">HTML</div>
+    <div class="skills">CSS</div>
+    <div class="skills">Bootstrap</div>
+    <div class="skills">Angular Material</div>
+    <div class="skills">GIT</div>
+    
+ </div>
+ <div class="tab-contents " id="experience">
+   
+    <div class="card">
+ 
+        <div class="card-container">
+          <h4><b>Android Application Developer</b></h4> <br>
+          <p>Unicom ERP, Kochi, Kerala <br>From May 2014 to March 2015</p> 
+        </div>
+      </div>
+      <div class="card">
+       <div class="card-container">
+          <h4><b>Programming Tutor</b></h4> <br>
+          <p>Information Technology Development Council,Valapad-Thrissur, Kerala <br>From March 2017 to January 2018</p> 
+        </div>
+      
+        </div>
+        <div class="card">
+          <div class="card-container">
+             <h4><b>Fullstack Web Developer Intern</b></h4> <br>
+             <p>Solar Secure Solutions <br>From Dec 2023 to present.
+            </p> 
+           </div>
+         
+           </div>
+      </div>
+ 
+ <div class="tab-contents " id="education">
+    <!-- <h4>Qualification</h4><br><br> -->
+
+    <div class="card">
+        <div class="card-container">
+           <h4><b>MEAN Stack Development</b></h4> <br>
+           <p>ICT Academy of Kerala, TVM, Kerala <br> July 2022- Dec 2022</p> 
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-container">
+            <h4><b>Introduction to <br>Modern Application<br> Development</b></h4> <br>
+            <p>IIT Madras & NPTEL <br>Online Certification <br> Oct 2016 </p> 
+             </div>
+        </div>   
+    <div class="card">
+ 
+        <div class="card-container"  
+        >
+          <h4><b>Bachelor of Technology<br> in Computer Engineering</b></h4> <br>
+          <p>Govt. Model Engineering College, Kerala <br>June 2011 - March 2014</p> 
+        </div>
+        
+      </div>
+      
+      </div>  <a id="download_button" href="images/Chindu Anurag CV.pdf" class="button button-light home__button">Download CV</a>
+    </div>
+ </div></div>
+ 
+ <!----Services---->
+ <br><br>
+ <div id="services">
+    <div class="container">
+        <h3 class="sub-title">My Services</h3>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"  id="icon"></i>
+                <h2>Web Development</h2>
+                <p>Developing responsive web applications both front-end and back-end using Mean stack technology</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-database" id="icon"></i>
+                <h2>Back-End Development</h2>
+                <p>Expert in dealing with the server-side and API</p>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop" id="icon"></i>
+                <h2>UI/UX Design</h2>
+                <p>Creating intuitive and visually stunning interfaces to enhance user experiences.</p>
+            </div>
+        </div>
+    </div>
+ </div>
+ </div>
+ <br>
+      <!---Portfolio-->
+      
+      <br><br>
+      <div class="container" id="portfolio">
+        <h3 class="sub-title">My Projects</h3><br>
+           
+  <div class="grid">
+   
+   
+    <div class="grid__item">
+      <div class="grid_card"><img class="card__img" src="images/learner.png "  >
+        <div class="card__content">
+          <h1 class="card__header">ICTAK Learner Tracker</h1>
+          <p class="card__text">Angular, NodeJS, ExpressJS, MongoDB </p>
+          <button class="card__btn">Preview </button>
+        </div>
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="grid_card"><img class="card__img" src="images/todo.jpg">
+        <div class="card__content">
+          <h1 class="card__header">ToDo Application</h1>
+       
+          <p class="card__text">HTML, NodeJS, ExpressJS, MongoDB</p>
+          <button class="card__btn">Preview </button>
+        </div>
+      </div>
+    </div>
+    <div class="grid__item">
+      <div class="grid_card"><img class="card__img" src="images/keralatourism.png">
+        <div class="card__content">
+          <h1 class="card__header">Kerala Tourism Website</h1>
+          <p class="card__text">Angular, NodeJS, ExpressJS, MongoDB</p>
+          <button class="card__btn">Preview/button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  </div>
+<!-- -------------contact-------------- -->
+
+
+ <!--===== CONTACTME =====-->
+ <section class="contact section bd-container" id="contact" >
+  <span class="section-subtitle">For Projects</span>
+  <h2 class="section-title">Contact Me</h2><br><br>
+  <div class="contact__container bd-grid">
+      <div class="contact__content bd-grid">
+          <div class="contact__box">
+              <i class='bx bx-home contact__icon'></i>
+              <h3 class="contact__title">Location</h3>
+              <span class="contact__description">Thrissur, Kerala</span>
+          </div>
+          <div class="contact__box">
+              <i class='bx bx-phone contact__icon'></i>
+              <h3 class="contact__title">Phone</h3>
+              <span class="contact__description">+91 944680862</span>
+          </div>
+          <div class="contact__box">
+              <i class='bx bx-envelope contact__icon'></i>
+              <h3 class="contact__title">Gmail</h3>
+              <span class="contact__description">chinduanurag@gmail.com</span>
+          </div>
+          <div class="contact__box">
+              <i class='bx bx-chat contact__icon'></i>
+              <h3 class="contact__title">Chat</h3>
+              <div>
+                  <a href="#" class="contact__social">
+                    <i class="fa-brands fa-whatsapp" style="color: #10c12d;"></i>
+                    <i class="fa-brands fa-telegram" style="color: #6f51f5;"></i>
+                    <i class="fa-brands fa-facebook-messenger" style="color: #6f51f5;"></i>
+                  </a>
+              </div>
+          </div>
+      </div>
+      <form action="#" class="contact__form" name="submit-to-google-sheet">
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="name">Name</label>
+            <input
+              required
+              placeholder="Enter Your Name"
+              type="text"
+              class="contact__form-input"
+              name="name"
+              id="name"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="email">Email</label>
+            <input
+              required
+              placeholder="Enter Your Email"
+              type="text"
+              class="contact__form-input"
+              name="email"
+              id="email"
+            />
+          </div>
+          <div class="contact__form-field">
+            <label class="contact__form-label" for="message">Message</label>
+            <textarea
+              required
+              cols="30"
+              rows="10"
+              class="contact__form-input"
+              placeholder="Enter Your Message"
+              name="message"
+              id="message"
+            ></textarea>
+          </div>
+          <button type="submit" class="button button-size">
+            Submit
+          </button>
+          <span id="msg"></span>
+        </form>
+       
+  </div>
+  
+  </section>  
+
+    
+<script>
+  
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+  
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+    window.addEventListener("scroll",function(){
+     var header=document.querySelector("nav");
+     
+      
+      nav.classList.toggle("sticky",window.scrollY > 0);
+    })
+    var sidemenu=document.getElementById("sidemenu");
+
+
+
+    function openmenu(){
+   
+     
+     sidemenu.style.width="400px";
+
+    }
+    
+    function closemenu(){
+  
+      sidemenu.style.width="0px";
+    
+ 
+  
+      
+    }
+   
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbwu5YNu1wZvWf62X50XqQxUkh9ZtZuk4iIuRccxRW5l2m9Q39Bfx9BSdYXbne_SKxhzJg/exec'
+  const form = document.forms['submit-to-google-sheet']
+  const msg=document.getElementById("msg")
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => {
+        msg.innerHTML="Message sent successfully"
+        setTimeout(function(){
+          msg.innerHTML="";
+        },5000)
+        form.reset();
+        
+      })
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
